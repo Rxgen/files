@@ -1,0 +1,30 @@
+{
+	"files": {
+		"main.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/main.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"board-directors.less",
+				"boards-report.less",
+				"chairmans-note.less",
+				"common.less",
+				"home.less",
+				"slider.less",
+				"theme-override.less",
+				"variables.less"
+			]
+		}
+	}
+}

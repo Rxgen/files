@@ -1,0 +1,28 @@
+@mixin mlra () {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@mixin calc($property, $expression) {
+	#{$property}: -o-calc(#{$expression});
+	#{$property}: -ms-calc(#{$expression});
+	#{$property}: -moz-calc(#{$expression});
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: calc(#{$expression});
+}
+
+@mixin content-padding ($px: $contentPadding) {
+    padding-left: px2vw($px);
+    padding-right: px2vw($px);
+}
+
+@mixin gradient ($angle, $start, $stop) {
+    background: $start;
+    background: -moz-linear-gradient($angle, $start 0%, $stop 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, $start), color-stop(100%, $stop));
+    background: -webkit-linear-gradient($angle, $start 0%, $stop 100%);
+    background: -o-linear-gradient($angle, $start 0%, $stop 100%);
+    background: -ms-linear-gradient($angle, $start 0%, $stop 100%);
+    background: linear-gradient($angle, $start 0%, $stop 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#14c7a3', endColorstr='#249adf', GradientType=1);
+}

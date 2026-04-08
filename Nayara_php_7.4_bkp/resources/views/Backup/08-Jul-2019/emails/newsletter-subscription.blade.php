@@ -1,0 +1,1 @@
+<p>Thank U For Subscription</p>

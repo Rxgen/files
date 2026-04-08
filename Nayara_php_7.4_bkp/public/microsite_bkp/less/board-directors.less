@@ -1,0 +1,188 @@
+/* Board Of Directors styles */
+.wrapper-board-directors{
+.board-section {
+	width: 100%;
+	padding: 50px 0;
+
+h2 {
+	margin-bottom: 120px;
+	color: #004281;
+}
+.board-inner {
+	width: 100%;
+	background:#f4fbfd;
+	text-align: center;
+	border-radius: 0 0 20px 20px;
+	position: relative;
+	padding: 150px 0 0 0;
+	// overflow: hidden;
+	
+	img {
+	max-width: 170px;	
+    position: absolute;
+    top: -65px;
+    left: 55%;
+    margin-left: -100px;
+}
+	h3 {
+		font-size: 15px !important; 
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #273e6c !important;
+	}
+	
+	.read-more {
+	background: #00adcc;
+	padding: 6px 0 6px 0;
+	border-radius: 0 0 20px 20px;
+	transition: 0.7s;
+	}
+	
+	@media(max-width:991px){ 
+		margin-bottom: 128px;
+		}
+	
+}
+.mt-bd {
+	margin-top: 150px;
+	
+	@media(max-width:991px){ 
+		margin-top: 0px;
+		}
+}
+	.inner-info {
+    overflow: hidden;
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    a {
+    width: 100%;	
+	position: absolute;
+    background: #00adcc;
+    color: #fff;
+    font-size: 18px;
+    padding: 3px 0;
+    border-radius: 0 0 20px 20px; 
+    bottom: -30%;
+    left: 0;
+    transition: bottom 0.5s ease;
+    cursor: pointer;
+    font-family: 'latoregular';
+    @media(max-width:1100px){ 
+	    bottom: 0;
+	}
+    
+}
+	
+	p {
+		margin:5px 0 40px 0;
+		color: #6d6e71 !important;
+	}
+}
+}
+.inner-info:hover a {
+		bottom: 0%;
+	}
+/* Bootsrap Override */
+.modal {
+	z-index: 9999;
+	text-align: center;
+    padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-dialog {
+  width: 60%;	
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+   @media(max-width:1500px){ 
+  	    width:75%;
+	}
+    @media(max-width:1100px){ 
+  	    width:80%;
+	}
+  @media(max-width:991px){ 
+  	width: 90%;
+  	.modal-body {
+        padding: 0;
+    }
+  }
+   @media(max-width:480px){ 
+  	text-align: left;
+		}		
+}
+.modal-content {
+	background:#19b5d1;
+	padding: 15px 30px;
+	color: #fff;
+	border: none;
+	.modal-info {
+		h4 {
+		font-size: 16px !important;
+		color: #fff !important;
+		margin-bottom: 5px; 
+		margin-top: 20px; 
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+		p {
+			font-size: 15px;
+			line-height: 24px;
+			font-family: 'latoregular';
+		}
+	}
+	.btn-prev, .btn-next {
+		cursor: pointer;
+		height: 15px;
+		margin-top: -10px;
+		padding: 0 12px;
+		position: relative;
+        z-index: 999;
+	}
+	.line {
+		margin: -10px 0 0 0;
+        height: 20px;
+        width: 2px;
+	}
+	.modal-body {
+	    padding:0 0 10px;	
+	img {
+		width: 200px;
+	}
+}	
+	@media(max-width:767px){ 
+  	padding: 15px;
+		}
+}
+
+.modal-header {
+	border-bottom: none;
+	padding:0;
+}
+.modal-footer {
+	border-top: none;
+	padding:0;
+	margin-top:-40px;
+	@media(max-width:991px){ 
+  	    margin-top:0px;
+	}
+}
+// .modal-dialog {
+//   height: 80% !important;
+//   padding-top:10%;
+// }
+
+// .modal-content {
+//   height: 100% !important;
+//   overflow:visible;
+// }
+
+
+}
+	 
+	 

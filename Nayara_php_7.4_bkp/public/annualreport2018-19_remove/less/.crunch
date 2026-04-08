@@ -1,0 +1,28 @@
+{
+	"files": {
+		"main.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/main.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"aboutus.less",
+				"bootstrap-override.less",
+				"common.less",
+				"home.less",
+				"services-solutions.less",
+				"variables.less"
+			]
+		}
+	}
+}

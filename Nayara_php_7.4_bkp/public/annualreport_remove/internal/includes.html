@@ -1,0 +1,116 @@
+<!-- right fixed nav -->
+<div class="cart-drawer cart-drawer-right"> 
+    <ul>
+        <li><a href="boards-report-content.html">Board’s Report</a></li>
+        <li><a href="boards-report-changing-business.html">The Changing <br>Business Environment</a></li>
+        <li><a href="boards-report-operational-excellence.html">Operational Excellence</a></li>
+        <li><a href="boards-report-marketing-performance.html" class="active">Marketing Performance</a></li>
+        <li><a href="boards-report-asset-devlopment.html">Asset Development</a></li>
+        <li><a href="boards-report-safety-stewardess.html">Safety Stewardess</a></li>
+        <li><a href="boards-report-technology.html">Technology </a> </li>
+        <li><a href="boards-report-financial-performance.html">Financial Performance </a></li>
+        <li><a href="boards-report-people.html">People</a></li>
+        <li><a href="boards-report-csr.html">Corporate Social Responsibility</a></li>
+        <li><a href="boards-report-governance.html">Governance</a></li>
+        <li><a href="boards-report-risk-management.html">Risk Management &amp; Internal Financial Controls</a></li>
+        <li><a href="boards-report-auditors-audit.html">Auditors and Audit</a></li>
+        <li><a href="boards-report-disclosures.html">Disclosures </a> </li>
+    </ul>
+</div>
+
+
+
+<!-- main menu-->
+<div class="burger-menu-list">
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="chairmans-note.html">Chairmans Note</a></li>
+        <li><a href="ceo-reflections.html">CEO Reflection</a></li>
+        <li><a href="board-of-director.html">Board of Directors</a></li>
+        <li><a href="management-committee.html">Mangement Committee</a></li>
+        <li><a href="boards-report-content.html">Board’s Report</a></li>
+        <li><a href="javascript:void(0)" class="btn-download">Financial Statements</a></li>    
+	</ul>
+</div>
+
+
+
+
+
+
+
+<!--Report Download-->
+<div class="wrapper-report-download">
+	<div class="financial-performance-bg">
+		<a href="javascript:void(0)" class="btn-close">×</a>
+		<div class="row">
+			
+			<div class="col-md-4">
+				<a href="annual-report-2020.html" target="_blank" title="Annual Report 2020">
+                <img src="img/download.png" alt="" class="img-fluid"> </a>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col content-section">
+						<img src="img/download01.png" alt="" class="img-fluid">
+						<p>Complete Financial <br>Statements</p>
+						<a href="img/financial-statements/complete-financial-statements.pdf" target="_blank" title="Complete Financial Statements"><i class="icon-download"></i> Download</a>
+					</div>
+					<div class="col content-section">
+						<img src="img/download02.png" alt="" class="img-fluid">
+						<p>Consolidated Financial <br>Statements</p>
+						<a href="img/financial-statements/consolidated-financial-statements.pdf" target="_blank" title="Consolidated Financial Statements"><i class="icon-download"></i> Download</a>
+					</div>
+					<div class="col content-section">
+						<img src="img/download03.png" alt="" class="img-fluid">
+						<p>Standalone Financial <br>Statements</p>
+						<a href="img/financial-statements/standalone-financial-statements.pdf" target="_blank" title="Standalone Financial Statements"><i class="icon-download"></i> Download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+</div>
+
+<!--/Report Download-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+     	
+	$('.custom-css').showMore({
+		speedDown: 300,
+		speedUp: 300,
+		height: '160px',
+		showText: 'Read More >',
+		hideText: 'Read Less <'
+	});
+	
+	$(document).mouseup(function(e) {
+		var container = $(".floating-form");
+		if (!container.is(e.target) && container.has(e.target).length === 0) {
+			$(".floating-form").removeClass("active");
+		}
+	});
+	
+	$(".form-toggle").on('click', function(e) {
+		e.preventDefault();
+		e.stopPropagation();
+		$(".floating-form").toggleClass("active");
+		return;
+	});
+
+});
+</script>
+
+<script src="libraries/showmore/js/jquery.show-more.js"></script>
+
+<script defer src="libraries/vmenu/scripts.js"></script> 
+<!--/PAGE SCRIPT-->
+
+<script src="libraries/bootstrap/popper.min.js"></script>
+<script src="libraries/bootstrap/bootstrap.min.js"></script>	
+<script src="js/custome.js"></script>
+

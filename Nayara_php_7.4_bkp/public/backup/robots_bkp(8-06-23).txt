@@ -1,0 +1,5 @@
+User-agent: *
+Allow: 
+Sitemap: https://www.nayaraenergy.com/sitemap.xml
+
+Disallow: https://www.nayaraenergy.com/storage/media-kits/June2019/xBlxqZWODJbszdg13p4b.pdf

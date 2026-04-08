@@ -1,0 +1,63 @@
+#fp-nav ul, .fp-slidesNav ul {
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+#fp-nav ul li, .fp-slidesNav ul li {
+    height: 18px;
+    margin: 7px;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    height: 10px;
+    width: 10px;
+    border: 1px solid #a3a3a3;
+    background: #ffffff;
+    margin: -2px 0 0 -4px;
+}
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
+    width: 10px;
+    height: 10px;
+    margin: -2px 0 0 -4px;
+    background: #38983f;
+}
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 10px;
+    width: 10px;
+    margin: -2px 0 0 -4px;
+    background: #ebe925;
+}
+.modal-header .close {
+    margin-right: -14px;
+    background: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    @media(max-width:991px){
+        margin-right: -5px;
+    }
+}
+
+@media(max-width:767px){
+    h2.resp-accordion {
+        padding: 15px;
+    }    
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+.carousel-indicators {
+   @media(max-width:767px){
+        margin-bottom: 0;    
+    }
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 10%;
+    left: 2%;
+    @media(max-width:1500px){
+        bottom: 8%;
+    }
+}
+.modal-body {
+    padding: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+@keyframes bgZoomIn {
+    0% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(0);
+    }
+    16% {
+        transform: perspective(1600px) rotateX(5deg) rotateY(-3deg) translateZ(32px); 
+    }
+    100% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(65px);
+    }
+}
+
+
+@keyframes bgZoomOut {
+    0% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(65px);
+    }
+    100% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(0);
+    }
+}
